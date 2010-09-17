@@ -31,6 +31,7 @@ setup(name='opengever.ogds.mysql',
       zip_safe=False,
       install_requires=[
         'setuptools',
+        'MySQL-python',
         'z3c.saconfig'
         # -*- Extra requirements: -*-
         ],
