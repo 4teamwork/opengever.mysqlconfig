@@ -1,0 +1,16 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:grok="http://namespaces.zope.org/grok"
+    xmlns:db="http://namespaces.zope.org/db"
+    i18n_domain="opengever.ogds.mysql">
+
+    <includeDependencies package="." />
+
+    <grok:grok package="." />
+
+    <db:engine name="ogds" 
+               url="mysql://root:@localhost/ogds?charset=utf8" />
+
+
+</configure>
