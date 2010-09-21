@@ -9,8 +9,9 @@
 
     <grok:grok package="." />
 
-    <db:engine name="ogds" 
+    <db:engine name="ogds"
                url="mysql://root:@localhost/ogds?charset=utf8" />
+    <db:session name="opengever.ogds" engine="ogds" />
 
 
 </configure>
