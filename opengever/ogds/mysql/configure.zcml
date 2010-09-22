@@ -10,7 +10,7 @@
     <grok:grok package="." />
 
     <db:engine name="ogds"
-               url="mysql://root:@localhost/ogds?charset=utf8" />
+               url="mysql://opengever:opengever@localhost/opengever?charset=utf8" />
     <db:session name="opengever.ogds" engine="ogds" />
 
 
