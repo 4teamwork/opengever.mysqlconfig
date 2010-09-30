@@ -4,9 +4,9 @@ import os
 version = '1.0a1-dev'
 maintainer = 'Jonas Baumann'
 
-setup(name='opengever.ogds.mysql',
+setup(name='opengever.mysqlconfig',
       version=version,
-      description="configures the ogds to use a local mysql database" + \
+      description="configures the mysql as database engine" + \
           ' (Maintainer: %s)' % maintainer,
       long_description=open("README.txt").read() + "\n" + \
           open(os.path.join("docs", "HISTORY.txt")).read(),
@@ -19,14 +19,14 @@ setup(name='opengever.ogds.mysql',
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
-      keywords='opengever ogds mysql',
+      keywords='opengever mysql config',
       author='%s, 4teamwork GmbH',
       author_email='',
       url='http://psc.4teamwork.ch/4teamwork/kunden/opengever/' + \
-          'opengever-ogds-mysql',
+          'opengever-mysqlconfig',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['opengever', 'opengever.ogds'],
+      namespace_packages=['opengever'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
