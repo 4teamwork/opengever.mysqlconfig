@@ -22,6 +22,7 @@ setup(name='opengever.mysqlconfig',
       keywords='opengever mysql config',
       author='%s, 4teamwork GmbH' % maintainer,
       author_email='mailto:info@4teamwork.ch',
+      maintainer=maintainer,
       url='http://psc.4teamwork.ch/4teamwork/kunden/opengever/' + \
           'opengever-mysqlconfig',
       license='GPL2',
