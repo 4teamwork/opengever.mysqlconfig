@@ -20,11 +20,11 @@ setup(name='opengever.mysqlconfig',
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
       keywords='opengever mysql config',
-      author='%s, 4teamwork GmbH',
-      author_email='',
+      author='%s, 4teamwork GmbH' % maintainer,
+      author_email='mailto:info@4teamwork.ch',
       url='http://psc.4teamwork.ch/4teamwork/kunden/opengever/' + \
           'opengever-mysqlconfig',
-      license='GPL',
+      license='GPL2',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['opengever'],
       include_package_data=True,
@@ -32,7 +32,7 @@ setup(name='opengever.mysqlconfig',
       install_requires=[
         'setuptools',
         'MySQL-python',
-        'z3c.saconfig'
+        'z3c.saconfig',
         # -*- Extra requirements: -*-
         ],
       entry_points="""
