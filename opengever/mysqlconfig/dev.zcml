@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:db="http://namespaces.zope.org/db"
+    i18n_domain="opengever.mysqlconfig">
+
+    <includeDependencies package="." />
+
+    <db:engine name="opengever.db"
+               url="mysql://opengeverdev:opengeverdev@localhost/opengever?charset=utf8" />
+    <db:session name="opengever" engine="opengever.db" />
+
+
+</configure>
