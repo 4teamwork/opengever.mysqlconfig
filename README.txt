@@ -26,4 +26,4 @@ Just run following command on your shell:
 
 ...
     $ cd src/opengever.mysqlconfig/opengever/mysqlconfig
-    $ mysql -uroot -p < create_databse.sql
+    $ mysql -uroot -p < create_database.sql
