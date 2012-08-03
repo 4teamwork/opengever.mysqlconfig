@@ -4,7 +4,10 @@ Changelog
 1.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Added important configuration options in the mysql db conf and creation script.
+  [phgross]
+
+
 
 
 1.0 (2011-11-17)

@@ -6,7 +6,9 @@
     <includeDependencies package="." />
 
     <db:engine name="opengever.db"
-               url="mysql://opengever:opengever@localhost/opengever?charset=utf8" />
+               url="mysql://opengever:opengever@localhost/opengever?charset=utf8"
+               pool_recycle="3600"/>
+
     <db:session name="opengever" engine="opengever.db" />
 
 
