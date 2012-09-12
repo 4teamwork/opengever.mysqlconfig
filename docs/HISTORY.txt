@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.1 (unreleased)
+1.0.1 (2012-09-12)
 ------------------
 
 - Added important configuration options in the mysql db conf and creation script.
