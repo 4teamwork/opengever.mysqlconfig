@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.1 (unreleased)
+1.1.1 (2013-08-14)
 ------------------
 
 - Corrected initial database name.
