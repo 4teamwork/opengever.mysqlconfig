@@ -22,8 +22,7 @@ Installation:
 There is a script `create_database.sql` which creates a new the database
 and grants access for the user on the database.
 
-Just run following command on your shell:
+Just run following command on your shell::
 
-...
     $ cd src/opengever.mysqlconfig/opengever/mysqlconfig
     $ mysql -uroot -p < create_database.sql
