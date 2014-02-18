@@ -32,3 +32,10 @@ Links
 
 * Main github project repository: https://github.com/4teamwork/opengever.mysqlconfig 
 * Issue tracker: https://github.com/4teamwork/opengever.mysqlconfig/issues
+
+Copyright
+=========
+
+This package is copyright by `4teamwork <http://www.4teamwork.ch/>`_.
+
+``opengever.mysqlconfig`` is licensed under GNU General Public License, version 2.
