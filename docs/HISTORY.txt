@@ -2,10 +2,11 @@ Changelog
 =========
 
 
-1.1.2 (unreleased)
+1.1.2 (2014-02-18)
 ------------------
 
-- Nothing changed yet.
+- Moved package to GitHub.
+  [lknoepfel]
 
 
 1.1.1 (2013-08-14)
